@@ -1,5 +1,3 @@
-#@ function
-
 def fact(n:int) -> int:
     #@ variant n
     return 1 if n <= 0 else n * fact(n - 1)
